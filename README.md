@@ -91,6 +91,7 @@ Feel free to open issues or discussions.
 
 ## 📬 Contact
 
-- **LinkedIn**: [Your LinkedIn Profile](#)  
-- **Discord**: [Your Discord Tag](#)  
+- **LinkedIn**: [Ognjen Manojlovic](https://www.linkedin.com/in/ognjen-manojlovic-299a2b2a0)  
+- **Discord**: [ognjen04890](https://discord.com/users/ognjen04890)  
 - **GitHub**: [ognjenmanojlovic](https://github.com/ognjenmanojlovic)  
+- **Instagram**: [0gisha](https://instagram.com/0gisha) 
