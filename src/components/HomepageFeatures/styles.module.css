@@ -1,8 +1,21 @@
 .features {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+.featuresBox {
+  background: #eafaf1;
+  border-radius: 16px;
+  padding: 3rem;
+  max-width: 1200px;
   width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] .featuresBox {
+  background: #23352d;
+  color: #ffffff;
 }
 
 .featureSvg {

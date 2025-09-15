@@ -28,3 +28,32 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-link:hover {
+  transform: translateY(-2px);
+}
+
+.footer-link.linkedin:hover {
+  color: #0e76a8;
+}
+
+.footer-link.discord:hover {
+  color: #5865F2;
+}
+
+.footer-link.instagram:hover {
+  color: #e1306c; 
+}
+
+.footer-link.github:hover {
+  color: #ffffff; 
+}

@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import { JSX } from 'react';
 
 type FeatureItem = {
   title: string;
@@ -10,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: 'Mein Ziel',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Nach der Developer Academy möchte ich in Zürich als <b>DevSecOps Engineer</b> starten 
+        und mein Wissen in Cloud & Security einsetzen.
+      </>
+    ),
+  },
+  {
+    title: 'Meine Projekte',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Hier findest du bald alle meine Projekte – dokumentiert in einer strukturierten Übersicht.
+        Jedes Projekt zeigt, was ich gelernt und umgesetzt habe.
+      </>
+    ),
+  },
+  {
+    title: 'Mein Blog',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Im Blog teile ich aktuelle Updates, persönliche Erfahrungen und meine Fortschritte.
+        So kannst du meinen Weg Schritt für Schritt mitverfolgen.
       </>
     ),
   },
@@ -58,11 +59,13 @@ function Feature({title, Svg, description}: FeatureItem) {
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+      <div className={styles.featuresBox}>
+        <div className="container">
+          <div className="row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

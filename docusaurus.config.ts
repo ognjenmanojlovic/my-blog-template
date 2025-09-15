@@ -1,11 +1,10 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import {config as dotenvconfig}  from "dotenv";
+import {config as dotenvconfig} from "dotenv";
 
 dotenvconfig();
 
-/* TODO: change to read configuration from environment */
 const blogEnabled = Boolean(process.env.BLOG_ENABLED === 'true')
 
 const config: Config = {
@@ -13,25 +12,16 @@ const config: Config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: process.env.DEPLOYMENT_URL ?? "https://spmse.github.io",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: process.env.DEPLOYMENT_URL ?? "https://ognjenmanojlovic.github.io",
   baseUrl: process.env.BASE_URL ?? "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: process.env.GITHUB_ORG, // Usually your GitHub org/user name.
-  projectName: process.env.GITHUB_PROJECT, // Usually your repo name.
-
+  organizationName: process.env.GITHUB_ORG,
+  projectName: process.env.GITHUB_PROJECT,
   deploymentBranch: process.env.DEPLOYMENT_BRANCH,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -43,37 +33,33 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/spmse/dev-blog-template',
+          editUrl: 'https://github.com/ognjenmanojlovic/my-blog-template.git',
         },
-        blog: blogEnabled ? 
-          {
-            showReadingTime: true,
-            feedOptions: {
-              type: ['rss', 'atom'],
-              xslt: true,
-            },
-            // Please change this to your repo.
-            // Remove this to remove the "edit this page" links.
-            editUrl:
-              'https://github.com/spmse/dev-blog-template',
-            // Useful options to enforce blogging best practices
-            onInlineTags: 'warn',
-            onInlineAuthors: 'warn',
-            onUntruncatedBlogPosts: 'warn',
-          }
+        blog: blogEnabled
+          ? {
+              showReadingTime: true,
+              feedOptions: {
+                type: ['rss', 'atom'],
+                xslt: true,
+              },
+              editUrl:
+                'https://github.com/ognjenmanojlovic/my-blog-template.git',
+              onInlineTags: 'warn',
+              onInlineAuthors: 'warn',
+              onUntruncatedBlogPosts: 'warn',
+            }
           : false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            './src/css/custom.css',
+            require.resolve('@fortawesome/fontawesome-free/css/all.min.css'),
+          ],
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'My Site',
@@ -89,8 +75,8 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/spmse/dev-blog-template',
-          label: 'Github',
+          href: 'https://github.com/ognjenmanojlovic/my-blog-template.git',
+          label: 'GitHub',
           position: 'right',
         },
       ],
@@ -99,28 +85,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Meine Socials',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/guides/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              html: `
+                <a href="https://www.linkedin.com/in/ognjen-manojlovic-299a2b2a0" target="_blank" rel="noopener noreferrer" class="footer-link linkedin">
+                  <i class="fab fa-linkedin fa-lg"></i> LinkedIn
+                </a>
+              `,
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              html: `
+                <a href="https://discord.com/users/ognjen04890" target="_blank" rel="noopener noreferrer" class="footer-link discord">
+                  <i class="fab fa-discord fa-lg"></i> Discord
+                </a>
+              `,
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              html: `
+                <a href="https://instagram.com/0gisha" target="_blank" rel="noopener noreferrer" class="footer-link instagram">
+                  <i class="fab fa-instagram fa-lg"></i> Instagram
+                </a>
+              `,
             },
           ],
         },
@@ -128,9 +114,16 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            }
+              html: `
+                <a href="https://github.com/ognjenmanojlovic" target="_blank" rel="noopener noreferrer" class="footer-link github">
+                  <i class="fab fa-github fa-lg"></i> GitHub
+                </a>
+              `,
+            },
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
           ],
         },
       ],
@@ -141,7 +134,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
       additionalLanguages: ['powershell', 'hcl'],
       magicComments: [
-        // Remember to extend the default highlight class name as well!
         {
           className: 'theme-code-block-highlighted-line',
           line: 'highlight-next-line',
@@ -156,10 +148,13 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
-
+console.log('BLOG_ENABLED:', blogEnabled);
 if (blogEnabled) {
-  (config.themeConfig.navbar as any).items.push({to: '/blog', label: 'Blog', position: 'left'});
-  (config.themeConfig.footer as any).links[2].items.push({to: '/blog', label: 'Blog'});
+  (config.themeConfig.navbar as any).items.push({
+    to: '/blog',
+    label: 'Blog',
+    position: 'left',
+  });
 }
 
 export default config;
