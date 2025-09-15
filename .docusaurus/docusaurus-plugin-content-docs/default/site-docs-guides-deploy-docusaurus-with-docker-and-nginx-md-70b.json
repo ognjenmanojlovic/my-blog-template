@@ -1,0 +1,24 @@
+{
+  "id": "guides/deploy-docusaurus-with-docker-and-nginx",
+  "title": "Deploy Docusaurus with Docker and NGINX",
+  "description": "To deploy the site using NGINX and Docker, use the following example Dockerfile configuration:",
+  "source": "@site/docs/guides/deploy-docusaurus-with-docker-and-nginx.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/deploy-docusaurus-with-docker-and-nginx",
+  "permalink": "/my-blog-template/docs/guides/deploy-docusaurus-with-docker-and-nginx",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/guides/deploy-docusaurus-with-docker-and-nginx.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using .env Files in Node.js",
+    "permalink": "/my-blog-template/docs/guides/nodejs/use-env-vars-in-node"
+  },
+  "next": {
+    "title": "Projects",
+    "permalink": "/my-blog-template/docs/projects/overview"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "guides/linux/the-parts-of-cli-commands",
+  "title": "Understanding CLI command parts in under 5 min",
+  "description": "This page aims to briefly explain the different parts a command is built up from, such as Arguments, Options, (Sub-)Commands, etc.",
+  "source": "@site/docs/guides/linux/the-parts-of-cli-commands.md",
+  "sourceDirName": "guides/linux",
+  "slug": "/guides/linux/the-parts-of-cli-commands",
+  "permalink": "/my-blog-template/docs/guides/linux/the-parts-of-cli-commands",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/guides/linux/the-parts-of-cli-commands.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Linux",
+    "permalink": "/my-blog-template/docs/category/linux"
+  },
+  "next": {
+    "title": "NodeJS",
+    "permalink": "/my-blog-template/docs/category/nodejs"
+  }
+}

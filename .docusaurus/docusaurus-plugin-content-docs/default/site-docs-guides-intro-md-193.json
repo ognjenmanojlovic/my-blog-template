@@ -1,0 +1,27 @@
+{
+  "id": "guides/intro",
+  "title": "Tutorial Intro",
+  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "source": "@site/docs/guides/intro.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/intro",
+  "permalink": "/my-blog-template/docs/guides/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/guides/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Implementing DevOps",
+    "permalink": "/my-blog-template/docs/knowledge-base/DevOps/implementing-devops"
+  },
+  "next": {
+    "title": "Demo Guide",
+    "permalink": "/my-blog-template/docs/guides/some-demo-guide"
+  }
+}

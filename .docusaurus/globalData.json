@@ -1,0 +1,193 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/my-blog-template/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/my-blog-template/docs",
+          "mainDocId": "knowledge-base/intro",
+          "docs": [
+            {
+              "id": "guides/deploy-docusaurus-with-docker-and-nginx",
+              "path": "/my-blog-template/docs/guides/deploy-docusaurus-with-docker-and-nginx",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/docusaurus-basics/congratulations",
+              "path": "/my-blog-template/docs/guides/docusaurus-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/docusaurus-basics/create-a-blog-post",
+              "path": "/my-blog-template/docs/guides/docusaurus-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/docusaurus-basics/create-a-document",
+              "path": "/my-blog-template/docs/guides/docusaurus-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/docusaurus-basics/create-a-page",
+              "path": "/my-blog-template/docs/guides/docusaurus-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/docusaurus-basics/deploy-your-site",
+              "path": "/my-blog-template/docs/guides/docusaurus-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/docusaurus-basics/markdown-features",
+              "path": "/my-blog-template/docs/guides/docusaurus-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/intro",
+              "path": "/my-blog-template/docs/guides/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/linux/the-parts-of-cli-commands",
+              "path": "/my-blog-template/docs/guides/linux/the-parts-of-cli-commands",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/nodejs/GithubLinkAdmonition",
+              "path": "/my-blog-template/docs/guides/nodejs/GithubLinkAdmonition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/nodejs/use-env-vars-in-node",
+              "path": "/my-blog-template/docs/guides/nodejs/use-env-vars-in-node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/some-demo-guide",
+              "path": "/my-blog-template/docs/guides/some-demo-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/tutorial-extras/manage-docs-versions",
+              "path": "/my-blog-template/docs/guides/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guides/tutorial-extras/translate-your-site",
+              "path": "/my-blog-template/docs/guides/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/Container/create-your-first-image",
+              "path": "/my-blog-template/docs/knowledge-base/Container/create-your-first-image",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/Container/overview",
+              "path": "/my-blog-template/docs/knowledge-base/Container/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/DevOps/implementing-devops",
+              "path": "/my-blog-template/docs/knowledge-base/DevOps/implementing-devops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/DevOps/overview",
+              "path": "/my-blog-template/docs/knowledge-base/DevOps/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/git/clone",
+              "path": "/my-blog-template/docs/knowledge-base/git/clone",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/git/git-branch",
+              "path": "/my-blog-template/docs/knowledge-base/git/git-branch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/git/lifecycle-in-git",
+              "path": "/my-blog-template/docs/knowledge-base/git/lifecycle-in-git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/intro",
+              "path": "/my-blog-template/docs/knowledge-base/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/linux/linux-server-administration",
+              "path": "/my-blog-template/docs/knowledge-base/linux/linux-server-administration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/linux/overview",
+              "path": "/my-blog-template/docs/knowledge-base/linux/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "knowledge-base/linux/the-linux-commandline",
+              "path": "/my-blog-template/docs/knowledge-base/linux/the-linux-commandline",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/example-project",
+              "path": "/my-blog-template/docs/projects/example-project",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/overview",
+              "path": "/my-blog-template/docs/projects/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "projects/vserver-setup",
+              "path": "/my-blog-template/docs/projects/vserver-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/git",
+              "path": "/my-blog-template/docs/category/git",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docusaurus---basics",
+              "path": "/my-blog-template/docs/category/docusaurus---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docusaurus---extras",
+              "path": "/my-blog-template/docs/category/docusaurus---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/linux",
+              "path": "/my-blog-template/docs/category/linux",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/nodejs",
+              "path": "/my-blog-template/docs/category/nodejs",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/my-blog-template/docs/knowledge-base/intro",
+                "label": "Knowledge Base"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

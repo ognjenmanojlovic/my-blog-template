@@ -1,0 +1,27 @@
+{
+  "id": "guides/some-demo-guide",
+  "title": "Demo Guide",
+  "description": "This page does only exist for demonstration purposes",
+  "source": "@site/docs/guides/some-demo-guide.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/some-demo-guide",
+  "permalink": "/my-blog-template/docs/guides/some-demo-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/guides/some-demo-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorial Intro",
+    "permalink": "/my-blog-template/docs/guides/intro"
+  },
+  "next": {
+    "title": "Docusaurus - Basics",
+    "permalink": "/my-blog-template/docs/category/docusaurus---basics"
+  }
+}

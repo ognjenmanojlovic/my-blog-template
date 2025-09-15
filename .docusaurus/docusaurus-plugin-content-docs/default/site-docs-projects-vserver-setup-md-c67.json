@@ -1,0 +1,20 @@
+{
+  "id": "projects/vserver-setup",
+  "title": "V-Server Setup",
+  "description": "This page documents how I configured my very first cloud server instance in the Developer Akademie DevSecOps Course.",
+  "source": "@site/docs/projects/vserver-setup.md",
+  "sourceDirName": "projects",
+  "slug": "/projects/vserver-setup",
+  "permalink": "/my-blog-template/docs/projects/vserver-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/projects/vserver-setup.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Project-Title",
+    "permalink": "/my-blog-template/docs/projects/example-project"
+  }
+}

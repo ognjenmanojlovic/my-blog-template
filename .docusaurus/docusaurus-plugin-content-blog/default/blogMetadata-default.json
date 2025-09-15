@@ -1,0 +1,5 @@
+{
+  "blogBasePath": "/my-blog-template/blog",
+  "blogTitle": "Blog",
+  "authorsListPath": "/my-blog-template/blog/authors"
+}

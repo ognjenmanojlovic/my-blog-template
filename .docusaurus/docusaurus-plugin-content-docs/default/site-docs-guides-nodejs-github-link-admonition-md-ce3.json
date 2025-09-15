@@ -1,0 +1,27 @@
+{
+  "id": "guides/nodejs/GithubLinkAdmonition",
+  "title": "Use the GitHub Link-Admonition component",
+  "description": "This GithubLinkAdmonition React component renders an Admonition with a GitHub icon, a title, and a link to a specified GitHub resource. The link text and type of Admonition can be customized.",
+  "source": "@site/docs/guides/nodejs/GithubLinkAdmonition.md",
+  "sourceDirName": "guides/nodejs",
+  "slug": "/guides/nodejs/GithubLinkAdmonition",
+  "permalink": "/my-blog-template/docs/guides/nodejs/GithubLinkAdmonition",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/guides/nodejs/GithubLinkAdmonition.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NodeJS",
+    "permalink": "/my-blog-template/docs/category/nodejs"
+  },
+  "next": {
+    "title": "Using .env Files in Node.js",
+    "permalink": "/my-blog-template/docs/guides/nodejs/use-env-vars-in-node"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "projects/overview",
+  "title": "Projects",
+  "description": "This page contains an overview about all my personal projects",
+  "source": "@site/docs/projects/overview.mdx",
+  "sourceDirName": "projects",
+  "slug": "/projects/overview",
+  "permalink": "/my-blog-template/docs/projects/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/projects/overview.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy Docusaurus with Docker and NGINX",
+    "permalink": "/my-blog-template/docs/guides/deploy-docusaurus-with-docker-and-nginx"
+  },
+  "next": {
+    "title": "Project-Title",
+    "permalink": "/my-blog-template/docs/projects/example-project"
+  }
+}

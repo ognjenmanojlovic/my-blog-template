@@ -1,0 +1,27 @@
+{
+  "id": "guides/docusaurus-basics/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/guides/docusaurus-basics/congratulations.md",
+  "sourceDirName": "guides/docusaurus-basics",
+  "slug": "/guides/docusaurus-basics/congratulations",
+  "permalink": "/my-blog-template/docs/guides/docusaurus-basics/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/guides/docusaurus-basics/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/my-blog-template/docs/guides/docusaurus-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Docusaurus - Extras",
+    "permalink": "/my-blog-template/docs/category/docusaurus---extras"
+  }
+}

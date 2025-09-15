@@ -1,0 +1,27 @@
+{
+  "id": "guides/nodejs/use-env-vars-in-node",
+  "title": "Using .env Files in Node.js",
+  "description": "In a Node.js application, environment variables can be managed using a .env file. Typically, the dotenv package is used to load these variables at runtime.",
+  "source": "@site/docs/guides/nodejs/use-env-vars-in-node.md",
+  "sourceDirName": "guides/nodejs",
+  "slug": "/guides/nodejs/use-env-vars-in-node",
+  "permalink": "/my-blog-template/docs/guides/nodejs/use-env-vars-in-node",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ognjenmanojlovic/my-blog-template.git/docs/guides/nodejs/use-env-vars-in-node.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use the GitHub Link-Admonition component",
+    "permalink": "/my-blog-template/docs/guides/nodejs/GithubLinkAdmonition"
+  },
+  "next": {
+    "title": "Deploy Docusaurus with Docker and NGINX",
+    "permalink": "/my-blog-template/docs/guides/deploy-docusaurus-with-docker-and-nginx"
+  }
+}
